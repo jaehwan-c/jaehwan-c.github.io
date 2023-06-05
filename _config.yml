@@ -157,8 +157,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -257,15 +255,15 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: false
       share: true
-      related: false
+      related: true
 
 defaults:
   # _pages
@@ -275,3 +273,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"

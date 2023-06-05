@@ -1,12 +1,29 @@
 # main links
 main:
-  - title: "NLP"
-    url: /nlp/
-  - title: "Computer Vision"
-    url: /computer-vision/
-  - title: "Algorithm"
-    url: /algorithm/
-  - title: "Miscellaneous"
-    url: /miscellaneous/
+  - title: "Categories"
+    url: /category/
+  - title: "Tag"
+    url: /tag/
   - title: "About"
     url: /about/
+
+# sidebars
+docs:
+  - title: NLP
+    children:
+      - title: "RNN"
+        url: /nlp/rnn/
+        category: "RNN"
+      - title: "LSTM"
+        url: /nlp/lstm/
+        category: "LSTM"
+  - title: Computer Vision
+    children:
+      - title: "CNN"
+        url: /computer-vision/cnn/
+        category: "CNN"
+  - title: Miscellanous
+    children:
+      - title: "Interviews"
+        url: /others/interview/
+        category: "Interview"

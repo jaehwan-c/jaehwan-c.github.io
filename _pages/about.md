@@ -1,6 +1,9 @@
 ---
 permalink: /about/
 title: "About"
+
+sidebar:
+    nav: "docs"
 ---
 <h2>Short Description on Myself</h2>
 - I am a penultimate year student studying industrial engineering @ HKU.
