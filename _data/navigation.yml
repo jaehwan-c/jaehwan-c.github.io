@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "NLP"
+    url: /nlp/
+  - title: "Computer Vision"
+    url: /computer-vision/
+  - title: "Algorithm"
+    url: /algorithm/
+  - title: "Miscellaneous"
+    url: /miscellaneous/
+  - title: "About"
+    url: /about/
