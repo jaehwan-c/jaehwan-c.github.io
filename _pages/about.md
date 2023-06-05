@@ -5,7 +5,7 @@ layout: single
 author_profile: True
 
 sidebar:
-    nav: "docs"
+    nav: "docs" 
 ---
 <h2>Short Description on Myself</h2>
 - I am a penultimate year student studying industrial engineering @ HKU.
