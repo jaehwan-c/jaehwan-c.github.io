@@ -12,10 +12,10 @@ docs:
   - title: NLP
     children:
       - title: "RNN"
-        url: /nlp/rnn/
+        url: /nlp/RNN/
         category: "RNN"
       - title: "LSTM"
-        url: /nlp/lstm/
+        url: /nlp/LSTM/
         category: "LSTM"
   - title: Computer Vision
     children:
