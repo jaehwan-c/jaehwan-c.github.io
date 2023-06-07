@@ -18,10 +18,10 @@ docs:
     category: "NLP"
     children:
       - title: "RNN"
-        url: /categories/RNN/
+        url: /categories/RNN
         tag: "RNN"
       - title: "LSTM"
-        url: /categories/LSTM/
+        url: /categories/LSTM
         tag: "LSTM"
 
   - title: Computer Vision
@@ -29,7 +29,7 @@ docs:
     category: "Computer Vision"
     children:
       - title: "CNN"
-        url: /categories/cnn/
+        url: /categories/cnn
         tag: "CNN"
 
   - title: Miscellanous
@@ -37,5 +37,5 @@ docs:
     category: "Miscellaneous"
     children:
       - title: "Interviews"
-        url: /categories/interview/
+        url: /categories/interview
         tag: "Interviews"
