@@ -12,20 +12,16 @@ docs:
   - title: Basics
     url: /categories/basics/
     category: "Basics"
-    children:
-      - title: "Basics"
-        url: /tags/basics/
-        tag: "Basics"
 
   - title: NLP
     url: /categories/nlp
     category: "NLP"
     children:
       - title: "RNN"
-        url: /tags/RNN/
+        url: /categories/RNN/
         tag: "RNN"
       - title: "LSTM"
-        url: /tags/LSTM/
+        url: /categories/LSTM/
         tag: "LSTM"
 
   - title: Computer Vision
@@ -33,7 +29,7 @@ docs:
     category: "Computer Vision"
     children:
       - title: "CNN"
-        url: /tags/cnn/
+        url: /categories/cnn/
         tag: "CNN"
 
   - title: Miscellanous
@@ -41,5 +37,5 @@ docs:
     category: "Miscellaneous"
     children:
       - title: "Interviews"
-        url: /tags/interview/
+        url: /categories/interview/
         tag: "Interviews"
