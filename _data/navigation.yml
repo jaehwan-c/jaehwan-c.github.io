@@ -9,21 +9,37 @@ main:
 
 # sidebars
 docs:
+  - title: Basics
+    url: /category/basics/
+    category: "Basics"
+    children:
+      - title: "Basics"
+        url: /tags/basics/
+        tag: "Basics"
+
   - title: NLP
+    url: /category/nlp
+    category: "NLP"
     children:
       - title: "RNN"
-        url: /nlp/RNN/
-        category: "RNN"
+        url: /tags/RNN/
+        tag: "RNN"
       - title: "LSTM"
-        url: /nlp/LSTM/
-        category: "LSTM"
+        url: /tags/LSTM/
+        tag: "LSTM"
+
   - title: Computer Vision
+    url: /category/computer-vision
+    category: "Computer Vision"
     children:
       - title: "CNN"
-        url: /computer-vision/cnn/
-        category: "CNN"
+        url: /tags/cnn/
+        tag: "CNN"
+
   - title: Miscellanous
+    url: /category/miscellaneous
+    category: "Miscellaneous"
     children:
       - title: "Interviews"
-        url: /others/interview/
-        category: "Interview"
+        url: /tags/interview/
+        tag: "Interviews"
