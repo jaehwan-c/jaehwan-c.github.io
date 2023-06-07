@@ -1,11 +1,11 @@
 ---
 title: "Interviews"
 layout: archive
-permalink: /categories/interview
+permalink: /tags/interview
 author_profile: true
 sidebar:
     nav: "docs"
 ---
 
-{% assign posts = site.categories.Interviews %}
+{% assign posts = site.tags.Interviews %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
