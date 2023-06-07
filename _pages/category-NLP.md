@@ -1,7 +1,7 @@
 ---
 title: "NLP"
 layout: archive
-permalink: /category/nlp
+permalink: /categories/nlp
 author_profile: true
 sidebar:
     nav: "docs"

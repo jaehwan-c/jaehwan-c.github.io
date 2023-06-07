@@ -1,7 +1,7 @@
 ---
 title: "Miscellaneous"
 layout: archive
-permalink: /category/miscellaneous
+permalink: /categories/miscellaneous
 author_profile: true
 sidebar:
     nav: "docs"

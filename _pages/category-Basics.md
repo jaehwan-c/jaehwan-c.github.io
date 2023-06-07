@@ -1,7 +1,7 @@
 ---
 title: "Basics"
 layout: archive
-permalink: /category/basics
+permalink: /categories/basics
 author_profile: true
 sidebar:
     nav: "docs"

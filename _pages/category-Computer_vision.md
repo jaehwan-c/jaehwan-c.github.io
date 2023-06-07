@@ -1,7 +1,7 @@
 ---
 title: "Computer Vision"
 layout: archive
-permalink: /category/computer-vision
+permalink: /categories/computer-vision
 author_profile: true
 sidebar:
     nav: "docs"
