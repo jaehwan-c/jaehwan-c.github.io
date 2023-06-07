@@ -10,7 +10,7 @@ main:
 # sidebars
 docs:
   - title: Basics
-    url: /categories/basics/
+    url: /categories/basics
     category: "Basics"
     children:
       - title: "Basics"
