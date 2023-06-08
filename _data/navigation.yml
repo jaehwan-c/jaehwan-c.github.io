@@ -38,6 +38,9 @@ docs:
       - title: "CNN"
         url: /tags/CNN
         tag: "CNN"
+      - title: "MLP"
+        url: /tags/MLP-vision
+        tag: "MLP Mixer"
 
   - title: Miscellanous
     url: /categories/miscellaneous
