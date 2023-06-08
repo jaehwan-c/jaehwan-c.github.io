@@ -27,6 +27,9 @@ docs:
       - title: "LSTM"
         url: /tags/LSTM
         tag: "LSTM"
+      - title: "Seq2Seq"
+        url: tags/seq2seq
+        tag: "Seq2Seq"
 
   - title: Computer Vision
     url: /categories/computer-vision
