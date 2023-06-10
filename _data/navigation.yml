@@ -30,6 +30,9 @@ docs:
       - title: "Seq2Seq"
         url: tags/seq2seq
         tag: "Seq2Seq"
+      - title: "Attention"
+        url: tags/Attention
+        tag: "Attention"
 
   - title: Computer Vision
     url: /categories/computer-vision

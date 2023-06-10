@@ -22,3 +22,4 @@ Here, under Computer Vision categories, several different models / processes wil
 <h3>Different models include:</h3>
 
 1. [Convolutional Neural Network](https://jaehwan-c.github.io/computer%20vision/CNN) - LeCun, 1989 - 1998
+2. [MLP Mixer](https://jaehwan-c.github.io/computer%20vision/MLP_Mixer) - Tolstikin, et al. , 2021
