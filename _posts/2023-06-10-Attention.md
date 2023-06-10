@@ -6,7 +6,6 @@ author_profile: true
 
 categories:
   - NLP
-  - Attention
 tags:
   - [NLP, Attention]
  
