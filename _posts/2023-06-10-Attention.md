@@ -52,7 +52,7 @@ To undestand the true mechanism, a sample method is to be explained: dot-product
 
 Imagine the first and second cells of decoder are predicted using attention algorithm. The third cell of decoder regers back to every  input from the encoder for the prediction. The <span style="color: red">red</span> rectangles represent the softmax value of encoder values. The higher the value, the more important for the prediction.
 
-1. Scoring Attention Score
+<h4>1. Scoring Attention Score</h4>
 
 ![Scoring Attention Score](https://wikidocs.net/images/page/22893/dotproductattention2_final.PNG "Attention Score"){: .align-center}
 
@@ -68,33 +68,33 @@ $$e^t = [S_th_1, S_th_2, ... S_th_n]$$
 
 Since this is dot product, the mechanism is known as dot-prduct attention.
 
-2. Attention Distribution using Softmax Function
+<h4>2. Attention Distribution using Softmax Function</h4>
 
 ![Softmax Function](https://wikidocs.net/images/page/22893/dotproductattention3_final.PNG "Softmax Function"){: .align-center}
 
 Applying softmax function in $e^t$ provides a probability distribution with summation of 1. The result is called attention distribution, with each value known as attention weight.
 
-3. Getting Attention Value
+<h4>3. Getting Attention Value</h4>
 
 ![Getting Attention Value](https://wikidocs.net/images/page/22893/dotproductattention4_final.PNG){: .align-center}
 
 It is necessary to get the weighted sum, $a_t = \sum_{t=1}^N a_i^th_i$. The attenention value is knwon as context vector for it containing the context of the encoder.
 
-4. Concenate Attention Value and Decoder Hidden State at Time $t$
+<h4>4. Concenate Attention Value and Decoder Hidden State at Time $t$</h4>
 
 ![Concentenate](https://wikidocs.net/images/page/22893/dotproductattention5_final_final.PNG "Concetanate")
 
 After getting attention score $a_t$, the $a_t$ is concetanated with $s_t$. This new vector is $v_t$, and this is used as an input for $\hat{y}$ for better prediction.
 
-5. $\widetilde{S}_t$ for Input of Output Layer Calculation
+<h4>5. $\widetilde{S}_t$ for Input of Output Layer Calculation</h4>
 
 The new vector $\widetilde{S}_t$ is calculated as:
 
-$\widetilde{S}_t = tanh(W_c[a_t; s_t] + b_c)$
+$$\widetilde{S}_t = tanh(W_c[a_t; s_t] + b_c)$$
 
 $W_c$ is trainable weight matrix, and $b_c$ is bias. For the input of further cells, Seq2Seq mechanism used hidden state $s_t$, but attention mechanism uses $\widetilde{S}_t$.
 
-6. $\widetilde{S}_t$ for Prediction Vector
+<h4>6. $\widetilde{S}_t$ for Prediction Vector</h4>
 
 $$\hat{y}_t = Softmax(W_y\widetilde{S}_t + b_y)$$
 
