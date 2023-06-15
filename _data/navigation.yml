@@ -33,6 +33,9 @@ docs:
       - title: "Attention"
         url: tags/Attention
         tag: "Attention"
+      - title: "GPT"
+        url: tags/GPT
+        tag: "GPT"
 
   - title: Computer Vision
     url: /categories/computer-vision
