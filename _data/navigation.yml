@@ -36,6 +36,9 @@ docs:
       - title: "GPT"
         url: tags/GPT
         tag: "GPT"
+      - title: "BERT"
+        url: tags/BERT
+        tag: "BERT"
 
   - title: Computer Vision
     url: /categories/computer-vision
