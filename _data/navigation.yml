@@ -39,6 +39,9 @@ docs:
       - title: "BERT"
         url: tags/BERT
         tag: "BERT"
+      - title: "LLaMa"
+        url: tags/LLaMa
+        tag: "LLaMa"
 
   - title: Computer Vision
     url: /categories/computer-vision
