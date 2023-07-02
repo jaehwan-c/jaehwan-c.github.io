@@ -38,7 +38,7 @@ This is the basic structure figure presented by the paper. There are some featur
 
 <h3>Transformer</h3>
 
-The <b>standard</b> transformer receives a 1D sequence of token embeddings. For 2D images, the image $\text{X} \in \R^{H \text{x} W \text{x} C}$ is transformed to flattened 2D patches of $\text{X}_p \in \R^{N \text{x} (P^2 * C)}$, where 
+The <b>standard</b> transformer receives a 1D sequence of token embeddings. For 2D images, the image $\text{X} \in \mathbb{R} ^{H \text{x} W \text{x} C}$ is transformed to flattened 2D patches of $\text{X}_p \in \mathbb{R}^{N \text{x} (P^2 * C)}$, where 
 
 * $(H, W)$ is the resolution of the original image,
 * $C$ is the number of channels,
@@ -47,7 +47,7 @@ The <b>standard</b> transformer receives a 1D sequence of token embeddings. For 
 
 The transformer also uses $D$, the constant latent vector size, through all of its layer. 
 
-Another noteworthy feature is token in front of embedding. Just as [class] token in BERT, the trainable embedding batch $z^0_0$ is added, whose state at the output of the Transformer encoder $z^0_L$ serves as the image representation $\bold{y}$. The classification head is attached for pre-training and fine-tuning. In addition, Positional embedding is added for identifying the position of patch embedding. 
+Another noteworthy feature is token in front of embedding. Just as [class] token in BERT, the trainable embedding batch $z^0_0$ is added, whose state at the output of the Transformer encoder $z^0_L$ serves as the image representation $y$. The classification head is attached for pre-training and fine-tuning. In addition, Positional embedding is added for identifying the position of patch embedding. 
 
 The repetition is done for $L$ times.
 
