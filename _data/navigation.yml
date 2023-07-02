@@ -53,6 +53,9 @@ docs:
       - title: "MLP"
         url: /tags/MLP-vision
         tag: "MLP Mixer"
+      - title: "Transformer"
+        url: /tags/Transformer
+        tag: "Transformer"
 
   - title: Miscellanous
     url: /categories/miscellaneous
