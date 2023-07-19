@@ -21,6 +21,9 @@ docs:
     url: /categories/nlp
     category: "NLP"
     children:
+      - title: "Techniques"
+        url: /tags/techniques
+        tag: "Techniques"
       - title: "RNN"
         url: /tags/RNN
         tag: "RNN"
