@@ -30,11 +30,11 @@ However, this method necessitates additional memory, calculation, and storage fo
 
 Parameter Efficient Fine-Tuning (PEFT) is one of the ways to deal with the disadvantages mentioned above. The idea is to train relatively small percentage of parameters (~ 0.01%) and handle the problems in a short period of time with high accuracy / precision. One of the most popular PEFT ways is Low-Rank Adaptation (LoRA).
 
-<h3>Brief Introduction of PEFT</h3>
+<h2>Brief Introduction of PEFT</h2>
 
 There were different methods for PEFT. One of the ways was to introduce adapters. Adapters are the structures of adding trainable feed-forward networks in between pre-trained models. The weights of pre-trained models are fixed. In addition to adapters, there are different methods that were introduced, including prompt engineering, prefix tuning, and stable diffusion.
 
-<h3>Low-Rank Adaptation</h3>
+<h2>Low-Rank Adaptation</h2>
 
 LoRA is a PEFT technique that has been introduced by Microsoft, and is applied in different language models including LLaMa and Alpaca. Here, trainable rank decomposition matrices are added into the pre-trained model with fixed weights.
 
@@ -42,7 +42,7 @@ LoRA is a PEFT technique that has been introduced by Microsoft, and is applied i
 
 This diagram demonstrates how LoRA functions. For each layer, there is a parameter that can be added to hidden state $h$. Since the pre-trained model is based on matrix, the matrix is added to the existing pretrained weights directly after the rank decomposition matrices are calculated with GPU. 
 
-<h3>Infused Adapter by Inhibiting and Amplifying Inner Activations</h3>
+<h2>Infused Adapter by Inhibiting and Amplifying Inner Activations</h2>
 
 Infused Adapter by Inhibiting and Amplifying Inner Activations (IA3) is a method for tuning two vectors:
 
@@ -53,7 +53,7 @@ Infused Adapter by Inhibiting and Amplifying Inner Activations (IA3) is a method
 
 The diagram above demonstrates how this method is applied. IA3 is introduced on the left. The key parameters in transformers are manipulated by rescaling the key and values with vectors $l_k, l_v,$ and $l_{ff}$. This method is known for using less parameters and having less calculations than LoRA method. T-few model, which is demonstrated on the right, is the recipe that is based on T0 model with fine-tuning method of IA3. This model utilized two additional loss terms for model for lower probabilities for incorrect terms and consider the difference in lengths of answer choices.
 
-<h3>Conclusion</h3>
+<h2>Conclusion</h2>
 
 With the emergence of Large Language Models, there have been attempts to fine-tune the model with less effort. These two techniques are some of the popular examples on how to fine-tune such large models.
 
