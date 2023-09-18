@@ -59,6 +59,9 @@ docs:
       - title: "Transformer"
         url: /tags/Transformer
         tag: "Transformer"
+      - title: "YOLO"
+        url: /tags/YOLO
+        tag: "YOLO"
 
   - title: Miscellanous
     url: /categories/miscellaneous
