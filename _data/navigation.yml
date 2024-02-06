@@ -53,6 +53,9 @@ docs:
       - title: "CNN"
         url: /tags/CNN
         tag: "CNN"
+      - title: "R-CNN"
+        url: /tags/RCNN
+        tag: "R-CNN"
       - title: "MLP"
         url: /tags/MLP-vision
         tag: "MLP Mixer"
