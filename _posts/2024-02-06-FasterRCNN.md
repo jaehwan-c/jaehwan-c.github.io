@@ -52,4 +52,4 @@ There are four steps for the model to be trained.
 2. Train Fast R-CNN with region proposal layer which excludes CNN from the trained RPN.
 3. Fine-tune 
 
-The overall paper can be found [here](https://welcome-to-dewy-world.tistory.com/110).
+The overall paper can be found [here](https://arxiv.org/pdf/1506.01497.pdf).
