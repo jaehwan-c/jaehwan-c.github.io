@@ -45,6 +45,9 @@ docs:
       - title: "LLaMa"
         url: tags/LLaMa
         tag: "LLaMa"
+      - title: "DeepSeek"
+        url: tags/DeepSeek
+        tag: "DeepSeek"
 
   - title: Computer Vision
     url: /categories/computer-vision
